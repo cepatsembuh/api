@@ -1,26 +1,49 @@
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+Flow:
+https://stronghold-donyriyanto.c9users.io/README.md
 
+API DOC (belum selesai, akan saya update mockup/doc nya):
+http://docs.cepatsembuh.apiary.io/
 
-Hi there! Welcome to Cloud9 IDE!
+Apiary ENDOINT buat monitor (materinya juga akan otomatis menyesuaikan doc):
+http://private-45e853-cepatsembuh.apiary-mock.com/
 
-To get you started, we included a small hello world application.
+Aplikasi API Backend:
+https://stronghold-donyriyanto.c9users.io/api.php
+Contoh:
+Untuk cek jadwal poli:
+https://stronghold-donyriyanto.c9users.io/api.php/cekpoli/123/2016-09-02
 
-1) Open the hello-world.html file
+Untuk daftar antrian baru seusai jadwal:
+https://stronghold-donyriyanto.c9users.io/api.php/daftar/1/1234567890
 
-2) Click on the Preview button to open a live preview pane
+Untuk lihat daftar faskes:
+https://stronghold-donyriyanto.c9users.io/api.php/faskes/
 
-3) Make some changes to the file, save, watch the preview, and have fun!
+Untuk lihat daftar dokter:
+https://stronghold-donyriyanto.c9users.io/api.php/dokter
 
-Happy coding!
-The Cloud9 IDE team
+Untuk lihat daftar poliklinik:
+https://stronghold-donyriyanto.c9users.io/api.php/poliklinik
 
+Untuk lihat daftar pasien (BPJS maupun non BPJS):
+https://stronghold-donyriyanto.c9users.io/api.php/pasien
 
-## Support & Documentation
+Untuk lihat data nomor rekam medis:
+https://stronghold-donyriyanto.c9users.io/api.php/rekammedis
 
-Visit http://docs.c9.io for documentation, or http://support.c9.io for support.
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+Untuk lihat jadwal dokter:
+https://stronghold-donyriyanto.c9users.io/api.php/jadwaldokter
+
+Untuk lihat antrian:
+https://stronghold-donyriyanto.c9users.io/api.php/antrian
+
+Untuk lihat data tipe penyakit (tapi masih kosong):
+https://stronghold-donyriyanto.c9users.io/api.php/jenispenyakit
+
+Akses Database PHPMYADMIN:
+https://stronghold-donyriyanto.c9users.io/phpmyadmin
+username: donyriyanto
+ga ada password
+
+masih banyak bug...sori belum sempet beresin, tapi inti prosesnya sudah. Rencana web back officenya disini (tapi belum di update)
+https://stronghold-donyriyanto.c9users.io/admingenerator/web/
